@@ -7,7 +7,6 @@ verify_ssl = true
 pylint = "*"
 jupyter = "*"
 matplotlib = "*"
-scikit-learn = "*"
 seaborn = "*"
 tensorboard = "*"
 
@@ -17,6 +16,7 @@ fire = "*"
 numpy = "*"
 pandas = "*"
 pyyaml = "*"
+scikit-learn = "*"
 h5py = "*"
 
 [requires]
