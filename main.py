@@ -19,6 +19,7 @@ class Cli(object):
         print('Running tensorflow version:', tf.__version__)
         print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))
         print("Num CPUs Available: ", len(tf.config.experimental.list_physical_devices('CPU')))
+
 def main():
     fire.Fire(Cli())
 
